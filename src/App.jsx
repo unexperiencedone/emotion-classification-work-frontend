@@ -172,7 +172,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <h3 className="text-xl font-semibold mb-2">Explanation</h3>
                 <p className="text-sm text-gray-600 mb-3">
                   These words contributed most to the decision.
@@ -186,7 +186,7 @@ function App() {
                 <div className="highlighted-text">
                   {renderHighlightedText()}
                 </div>
-              </div>
+              </div> */}
 
               {result.fidelity_score && (
                 <div className="mt-4 pt-4 border-t">
