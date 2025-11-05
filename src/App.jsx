@@ -24,7 +24,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:5000/predict", {
+      const response = await fetch("https://unexperiencedone-emotion-classifier-host.hf.space/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
